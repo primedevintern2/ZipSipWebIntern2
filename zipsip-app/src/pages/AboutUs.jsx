@@ -16,7 +16,7 @@ const AboutUs = () => {
         </p>
       </div>
       <h2 className="ml-20 mb-9 text-3xl font-semibold ">About Us</h2>
-      <div className="ml-20 flex w-full">
+      <div className="ml-20 flex">
         <div className="w-3/5 mr-20">
           <p className="leading-9 mb-5">
             ZipSip is a must have app for rapid delivery of the finest wines,
@@ -60,7 +60,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div className="w-2/5">
+        <div className="">
           <img
             src={rectangle}
             alt="rectangle"
