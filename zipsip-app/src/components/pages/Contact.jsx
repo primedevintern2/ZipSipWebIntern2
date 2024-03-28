@@ -13,13 +13,13 @@ const Contact = () => {
         </p>
       </div>
 
-      <div className="mx-24 h-screen w-10/12 mt-10">
+      <div className="mx-32 h-screen w-10/12 mt-10">
         <form className="bg-white shadow rounded ">
           <span className="absolute font-normal text-l text-white bg-black w-10/12 h-12 pl-8 pt-3 rounded-t-md">
             Get In Touch With Us
           </span>
           <div className="flex">
-            <div className="pt-6">
+            <div className="pt-6 w-1/3">
               <div className="px-8 pt-10 mb-4 mt-8">
                 <label className="block text-gray-700 text-sm font-semibold mb-2">
                   Phone Number<br></br>
@@ -54,7 +54,7 @@ const Contact = () => {
                 ></textarea>
               </div>
             </div>
-            <div className="pt-6">
+            <div className="pt-6 w-2/3">
               <div className="px-8 pt-10 mb-4 mt-8">
                 <span className="font-semibold text-xl text-black-500">
                   Send us a message
@@ -65,10 +65,10 @@ const Contact = () => {
                 </p>
               </div>
               <div className="flex ">
-                <div className="">
+                <div className="w-1/2">
                   <div className="px-8 mb-4 mt-4">
                     <input
-                      className=" appearance-none border rounded-full w-80 py-2 px-5 text-gray-900 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-800 placeholder:font-medium"
+                      className=" appearance-none border rounded-full w-full py-2 px-5 text-gray-900 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-800 placeholder:font-medium"
                       id="name"
                       type="text"
                       placeholder="Your Name"
@@ -76,17 +76,17 @@ const Contact = () => {
                   </div>
                   <div className="px-8 mb-4 mt-4">
                     <input
-                      className="appearance-none border rounded-full w-80 py-2 px-5 text-gray-900 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-800 placeholder:font-medium"
+                      className="appearance-none border rounded-full w-full py-2 px-5 text-gray-900 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-800 placeholder:font-medium"
                       id="Number"
                       type="number"
                       placeholder="Phone Number"
                     />
                   </div>
                 </div>
-                <div>
+                <div className="w-1/2">
                   <div className="px-8 mb-4 mt-4">
                     <input
-                      className="appearance-none border rounded-full w-80 py-2 px-5 text-gray-900 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-800 placeholder:font-medium"
+                      className="appearance-none border rounded-full w-full py-2 px-5 text-gray-900 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-800 placeholder:font-medium"
                       id="email"
                       type="email"
                       placeholder="Your E-mail"
@@ -94,7 +94,7 @@ const Contact = () => {
                   </div>
                   <div className="px-8 mb-4 mt-4">
                     <input
-                      className="appearance-none border rounded-full w-80 py-2 px-5 text-gray-900 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-800 placeholder:font-medium"
+                      className="appearance-none border rounded-full w-full py-2 px-5 text-gray-900 leading-tight focus:outline-none focus:shadow-outline placeholder-gray-800 placeholder:font-medium"
                       id="subject"
                       type="text"
                       placeholder="Subject"
