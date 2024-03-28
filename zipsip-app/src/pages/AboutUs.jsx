@@ -45,7 +45,7 @@ const AboutUs = () => {
           <p className="mb-5 font-medium">
             Once downloaded all you have to do is:
           </p>
-          <div className="flex w-full font-medium">
+          <div className="flex w-full font-medium mb-20">
             <div className="w-1/3 flex items-center">
               <BsCircleFill className="mr-4 w-6 h-6 text-gray-400" />A minute to
               register
@@ -68,7 +68,7 @@ const AboutUs = () => {
           ></img>
         </div>
       </div>
-      <div className="h-80 my-20 bg-black text-center content-center">
+      <div className="h-80 bg-black text-center content-center mb-20">
         <h1 className="text-white font-bold text-3xl">Sign up and save</h1>
         <p className="text-white my-5">Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
         <div className="flex justify-center mt-7">
