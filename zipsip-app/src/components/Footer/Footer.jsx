@@ -73,8 +73,8 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <div className="text-center mt-14 font-semibold">
-        <p>Copyright © 2024 ZipSip</p>
+      <div className="text-center mt-10 font-semibold">
+        <p className="pb-10 ">Copyright © 2024 ZipSip</p>
       </div>
     </footer>
   );

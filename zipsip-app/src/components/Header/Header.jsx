@@ -18,22 +18,22 @@ const Header = () => {
       <nav className="">
         <ul className="flex space-x-9">
           <li>
-            <a href="#" className="text-rgba(25, 25, 25, 1)">
+            <a href="#" className="text-rgba(25, 25, 25, 1) hover:text-red-700">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="text-rgba(25, 25, 25, 1)">
+            <a href="#" className="text-rgba(25, 25, 25, 1) hover:text-red-700">
             Location
             </a>
           </li>
           <li>
-            <a href="#" className="text-rgba(25, 25, 25, 1)">
+            <a href="#" className="text-rgba(25, 25, 25, 1) hover:text-red-700">
             About Us
             </a>
           </li>
           <li>
-            <a href="#" className="text-rgba(25, 25, 25, 1)">
+            <a href="#" className="text-rgba(25, 25, 25, 1) hover:text-red-700">
             Contact Us 
             </a>
           </li>
@@ -43,15 +43,15 @@ const Header = () => {
       <div className="flex items-center space-x-4 mr-24">
       <img
         src={search}
-        className="w-4 h-4 object-contain"
+        className="w-4 h-4 object-contain hover:text-red-700"
         alt="search"
       />
       <img
         src={cart}
-        className="w-4 h-4 object-contain"
+        className="w-4 h-4 object-contain hover:text-red-700"
         alt="cart"
       />
-      <button className="px-4 py-1 bg-red-700 text-white rounded-full">Login</button>
+      <button className="px-4 py-1 bg-red-700 text-white rounded-full scale-95">Login</button>
       </div>
       
     
